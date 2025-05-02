@@ -21,6 +21,12 @@
 </div>
 
 ###
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AyushSingh360/AyushSingh360/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AyushSingh360/AyushSingh360/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/AyushSingh360/AyushSingh360/output/pacman-contribution-graph.svg">
+</picture>
+
 
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=AyushSingh360&theme=dracula&no-frame=false&no-bg=true&margin-w=4)
