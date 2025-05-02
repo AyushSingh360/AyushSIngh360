@@ -31,3 +31,22 @@
 ###
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=AyushSingh360&theme=dracula&no-frame=false&no-bg=true&margin-w=4)
+## <br clear="both">
+
+<img src="https://raw.githubusercontent.com/AyushSingh360/AyushSingh360/output/snake.svg" alt="Snake animation" />
+
+###
+
+<div align="center">
+  <img src="https://profile-counter.glitch.me/AyushSingh360/count.svg?"  />
+</div>
+
+###
+
+<div align="center">
+  <a href="https://open.spotify.com/user/31idlinbkwmvgq76nfso3gcivwuu">
+    <img src="https://spotify-recently-played-readme.vercel.app/api?user=31idlinbkwmvgq76nfso3gcivwuu&count=5&unique=true" alt="Spotify recently played"  />
+  </a>
+</div>
+
+###
