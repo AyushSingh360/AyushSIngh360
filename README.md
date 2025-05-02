@@ -1,6 +1,8 @@
 # 💫 About Me:
 🔭 I’m currently working on AI projects <br>👯 I’m looking to collaborate on Full stack Projects<br>🤝 I’m looking for help with Java and React<br>🌱 I’m currently learning Java & kotlin<br>💬 Ask me about JS, Python, HTML, CSS, MysQl<br>⚡ I love learning new technologies to enhance my skills and knowledge 
+<img align="right" height="150" src="https://giphy.com/gifs/ES4Vcv8zWfIt2"  />
 
+###
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/iblameashx) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/ayushsingh360) [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/20293192) [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/xash.tt) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/xash.ae) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:ayushsingh21109@gmail.com) 
