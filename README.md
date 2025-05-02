@@ -1,5 +1,10 @@
-# 💫 About Me:
-🔭 I’m currently working on AI projects <br>👯 I’m looking to collaborate on Full stack Projects<br>🤝 I’m looking for help with Java and React<br>🌱 I’m currently learning Java & kotlin<br>💬 Ask me about JS, Python, HTML, CSS, MysQl<br>⚡ I love learning new technologies to enhance my skills and knowledge 
+<img align="right" height="180" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHcwdnJzYmJ3YTExY3dtZGlsZTBlbjhrcmo0MThteGx0aHI1cnRtdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pYNhxuY2Xx528/giphy.gif"  />
+
+###
+
+<h4 align="left">💫 About Me:<br>🔭 I’m currently working on AI projects<br>👯 I’m looking to collaborate on Full stack Projects<br>🤝 I’m looking for help with Java and React<br>🌱 I’m currently learning Java & kotlin<br>💬 Ask me about JS, Python, HTML, CSS, MysQl<br>⚡ I love learning new technologies to enhance my skills and knowledge</h4>
+
+###
 
 
 ## 🌐 Socials:
