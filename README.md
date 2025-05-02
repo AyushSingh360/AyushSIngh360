@@ -31,15 +31,6 @@
 ###
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=AyushSingh360&theme=dracula&no-frame=false&no-bg=true&margin-w=4)
-## <br clear="both">
-
-<img src="https://raw.githubusercontent.com/AyushSingh360/AyushSingh360/output/snake.svg" alt="Snake animation" />
-
-###
-
-<div align="center">
-  <img src="https://profile-counter.glitch.me/AyushSingh360/count.svg?"  />
-</div>
 
 ###
 
