@@ -2,7 +2,7 @@
 
 ###
 
-<h4 align="left"> ## 💫 𝗔𝗯𝗼𝘂𝘁 𝗠𝗲
+<h4 align="left">💫 𝗔𝗯𝗼𝘂𝘁 𝗠𝗲
   <br>🔭 I’m currently working on AI projects<br>👯 I’m looking to collaborate on Full stack Projects<br>🤝 I’m looking for help with Java and React<br>🌱 I’m currently learning Java & kotlin<br>💬 Ask me about JS, Python, HTML, CSS, MysQl<br>⚡ I love learning new technologies to enhance my skills and knowledge</h4>
 
 ###
