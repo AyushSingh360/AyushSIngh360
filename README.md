@@ -42,7 +42,7 @@
 ###  
 
 <div align="center">
-  <img src="https://profile-counter.glitch.me/AyushSingh360/count.svg?"  />
+ 
   
   
    ![Visitor Count](https://komarev.com/ghpvc/?username=AyushSingh360&color=blueviolet&style=flat)
