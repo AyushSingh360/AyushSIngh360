@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="220" viewBox="0 0 380 220">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0D0D0F" />
+      <stop offset="100%" style="stop-color:#0F1512" />
+    </linearGradient>
+    <linearGradient id="accent2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#22C55E" />
+      <stop offset="100%" style="stop-color:#4ADE80" />
+    </linearGradient>
+    <filter id="glow2">
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
+      <feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+  </defs>
+  <style>
+    @keyframes sway { 0%, 100% { transform: rotate(-2deg); } 50% { transform: rotate(2deg); } }
+    @keyframes leafPulse { 0%, 100% { opacity: 0.4; } 50% { opacity: 0.9; } }
+    @keyframes breathe { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.05); } }
+    .card-bg { fill: url(#bg2); stroke: #1E2822; stroke-width: 1; }
+    .title { font-family: 'Segoe UI', sans-serif; fill: #C4A24E; font-size: 18px; font-weight: 700; letter-spacing: 1px; }
+    .desc { font-family: 'Segoe UI', sans-serif; fill: #9A9590; font-size: 11.5px; }
+    .tag { font-family: 'JetBrains Mono', monospace; fill: #22C55E; font-size: 9px; letter-spacing: 1px; }
+    .tag-bg { fill: #22C55E; opacity: 0.1; }
+    .lang-dot { fill: #3178C6; }
+    .lang { font-family: 'Segoe UI', sans-serif; fill: #6A6560; font-size: 10px; }
+    .star { font-family: 'Segoe UI', sans-serif; fill: #C4A24E; font-size: 10px; }
+    .leaf { fill: #22C55E; animation: leafPulse 3s ease-in-out infinite; }
+    .l1 { animation-delay: 0s; }
+    .l2 { animation-delay: 0.8s; }
+    .l3 { animation-delay: 1.6s; }
+    .tree-group { animation: breathe 4s ease-in-out infinite; transform-origin: 330px 42px; }
+    .live-dot { fill: #22C55E; animation: leafPulse 1.5s ease-in-out infinite; }
+    .live-text { font-family: 'Segoe UI', sans-serif; fill: #22C55E; font-size: 9px; letter-spacing: 1px; }
+  </style>
+
+  <!-- Card -->
+  <rect width="380" height="220" rx="12" class="card-bg" />
+  <rect x="24" y="0" width="60" height="2" rx="1" fill="url(#accent2)" />
+
+  <!-- Icon — Tree / Nature -->
+  <g class="tree-group">
+    <!-- Tree trunk -->
+    <rect x="327" y="42" width="4" height="16" rx="1" fill="#6B4F30" opacity="0.7" />
+    <!-- Tree canopy layers -->
+    <ellipse cx="329" cy="34" rx="14" ry="10" class="leaf l1" opacity="0.3" />
+    <ellipse cx="329" cy="30" rx="11" ry="8" class="leaf l2" opacity="0.5" />
+    <ellipse cx="329" cy="27" rx="8" ry="6" class="leaf l3" opacity="0.7" />
+    <!-- Small leaves -->
+    <circle cx="316" cy="38" r="3" class="leaf l2" opacity="0.25" />
+    <circle cx="344" cy="36" r="2.5" class="leaf l1" opacity="0.25" />
+  </g>
+
+  <!-- Floating particles (fireflies) -->
+  <circle cx="305" cy="30" r="1.5" fill="#C4A24E" opacity="0.4">
+    <animate attributeName="opacity" values="0.2;0.8;0.2" dur="2.5s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="350" cy="50" r="1" fill="#4ADE80" opacity="0.3">
+    <animate attributeName="opacity" values="0.1;0.6;0.1" dur="3s" repeatCount="indefinite" begin="0.5s" />
+  </circle>
+
+  <!-- Title -->
+  <text x="24" y="40" class="title">AETHON WILDLIFE</text>
+
+  <!-- Live badge -->
+  <circle cx="258" cy="198" r="3" class="live-dot" />
+  <text x="266" y="202" class="live-text">LIVE</text>
+
+  <!-- Description -->
+  <text x="24" y="65" class="desc">
+    <tspan x="24" dy="0">Interactive wildlife sanctuary experience built with</tspan>
+    <tspan x="24" dy="16">React + TypeScript. Dark-jungle themed UI with gold</tspan>
+    <tspan x="24" dy="16">shimmer accents, glassmorphic components, and</tspan>
+    <tspan x="24" dy="16">scroll-driven cinematic storytelling.</tspan>
+  </text>
+
+  <!-- Tags -->
+  <rect x="24" y="140" width="48" height="18" rx="9" class="tag-bg" />
+  <text x="48" y="153" text-anchor="middle" class="tag">REACT</text>
+
+  <rect x="80" y="140" width="80" height="18" rx="9" class="tag-bg" />
+  <text x="120" y="153" text-anchor="middle" class="tag">TYPESCRIPT</text>
+
+  <rect x="168" y="140" width="72" height="18" rx="9" class="tag-bg" />
+  <text x="204" y="153" text-anchor="middle" class="tag">VERCEL</text>
+
+  <rect x="248" y="140" width="92" height="18" rx="9" class="tag-bg" />
+  <text x="294" y="153" text-anchor="middle" class="tag">GLASSMORPHIC</text>
+
+  <!-- Footer -->
+  <line x1="24" y1="178" x2="356" y2="178" stroke="#1E2822" stroke-width="0.5" />
+
+  <!-- Language -->
+  <circle cx="30" cy="198" r="4" class="lang-dot" />
+  <text x="40" y="202" class="lang">TypeScript</text>
+
+  <!-- Stars -->
+  <text x="320" y="202" class="star">★ 2</text>
+
+  <!-- View arrow -->
+  <text x="348" y="202" font-family="'Segoe UI', sans-serif" fill="#C4A24E" font-size="12" opacity="0.6">→</text>
+</svg>

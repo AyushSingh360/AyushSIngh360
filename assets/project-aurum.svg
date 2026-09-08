@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="220" viewBox="0 0 380 220">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0D0D0F" />
+      <stop offset="100%" style="stop-color:#14120F" />
+    </linearGradient>
+    <linearGradient id="accent4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#C4A24E" />
+      <stop offset="100%" style="stop-color:#E8C547" />
+    </linearGradient>
+    <linearGradient id="watchGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B6914" />
+      <stop offset="50%" style="stop-color:#C4A24E" />
+      <stop offset="100%" style="stop-color:#8B6914" />
+    </linearGradient>
+  </defs>
+  <style>
+    @keyframes tick { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+    @keyframes slowTick { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+    @keyframes shimmer { 0%, 100% { opacity: 0.2; } 50% { opacity: 0.6; } }
+    .card-bg { fill: url(#bg4); stroke: #2A2520; stroke-width: 1; }
+    .title { font-family: 'Segoe UI', sans-serif; fill: #C4A24E; font-size: 18px; font-weight: 700; letter-spacing: 2px; }
+    .desc { font-family: 'Segoe UI', sans-serif; fill: #9A9590; font-size: 11.5px; }
+    .tag { font-family: 'JetBrains Mono', monospace; fill: #C4A24E; font-size: 9px; letter-spacing: 1px; }
+    .tag-bg { fill: #C4A24E; opacity: 0.1; }
+    .lang-dot { fill: #F1E05A; }
+    .lang { font-family: 'Segoe UI', sans-serif; fill: #6A6560; font-size: 10px; }
+    .star { font-family: 'Segoe UI', sans-serif; fill: #C4A24E; font-size: 10px; }
+    .watch-face { fill: none; stroke: url(#watchGold); }
+    .sparkle { fill: #C4A24E; animation: shimmer 2s ease-in-out infinite; }
+    .sp1 { animation-delay: 0s; }
+    .sp2 { animation-delay: 0.4s; }
+    .sp3 { animation-delay: 0.8s; }
+    .sp4 { animation-delay: 1.2s; }
+    .live-dot { fill: #22C55E; animation: shimmer 1.5s ease-in-out infinite; }
+    .live-text { font-family: 'Segoe UI', sans-serif; fill: #22C55E; font-size: 9px; letter-spacing: 1px; }
+    .sec-hand { stroke: #C4A24E; stroke-width: 0.5; animation: tick 60s linear infinite; transform-origin: 329px 38px; }
+    .min-hand { stroke: #C4A24E; stroke-width: 0.8; animation: slowTick 3600s linear infinite; transform-origin: 329px 38px; }
+  </style>
+
+  <!-- Card -->
+  <rect width="380" height="220" rx="12" class="card-bg" />
+  <rect x="24" y="0" width="60" height="2" rx="1" fill="url(#accent4)" />
+
+  <!-- Icon — Luxury watch face -->
+  <g>
+    <!-- Outer ring -->
+    <circle cx="329" cy="38" r="20" class="watch-face" stroke-width="1.5" />
+    <circle cx="329" cy="38" r="17" class="watch-face" stroke-width="0.5" opacity="0.4" />
+
+    <!-- Hour markers -->
+    <line x1="329" y1="20" x2="329" y2="24" stroke="#C4A24E" stroke-width="0.8" opacity="0.7" />
+    <line x1="329" y1="52" x2="329" y2="56" stroke="#C4A24E" stroke-width="0.8" opacity="0.7" />
+    <line x1="311" y1="38" x2="315" y2="38" stroke="#C4A24E" stroke-width="0.8" opacity="0.7" />
+    <line x1="343" y1="38" x2="347" y2="38" stroke="#C4A24E" stroke-width="0.8" opacity="0.7" />
+
+    <!-- Small markers -->
+    <circle cx="339" cy="23" r="0.8" fill="#C4A24E" opacity="0.4" />
+    <circle cx="345" cy="30" r="0.8" fill="#C4A24E" opacity="0.4" />
+    <circle cx="345" cy="46" r="0.8" fill="#C4A24E" opacity="0.4" />
+    <circle cx="339" cy="53" r="0.8" fill="#C4A24E" opacity="0.4" />
+    <circle cx="319" cy="53" r="0.8" fill="#C4A24E" opacity="0.4" />
+    <circle cx="313" cy="46" r="0.8" fill="#C4A24E" opacity="0.4" />
+    <circle cx="313" cy="30" r="0.8" fill="#C4A24E" opacity="0.4" />
+    <circle cx="319" cy="23" r="0.8" fill="#C4A24E" opacity="0.4" />
+
+    <!-- Watch hands -->
+    <line x1="329" y1="38" x2="329" y2="25" class="min-hand" />
+    <line x1="329" y1="38" x2="340" y2="34" stroke="#C4A24E" stroke-width="0.6" opacity="0.5" />
+    <line x1="329" y1="38" x2="329" y2="22" class="sec-hand" opacity="0.4" />
+
+    <!-- Center dot -->
+    <circle cx="329" cy="38" r="1.5" fill="#C4A24E" />
+  </g>
+
+  <!-- Sparkles around watch -->
+  <circle cx="305" cy="22" r="1" class="sparkle sp1" />
+  <circle cx="352" cy="25" r="1" class="sparkle sp2" />
+  <circle cx="308" cy="55" r="1" class="sparkle sp3" />
+  <circle cx="350" cy="52" r="1" class="sparkle sp4" />
+
+  <!-- Title -->
+  <text x="24" y="40" class="title">AURUM MECHANICA</text>
+
+  <!-- Live badge -->
+  <circle cx="258" cy="198" r="3" class="live-dot" />
+  <text x="266" y="202" class="live-text">LIVE</text>
+
+  <!-- Description -->
+  <text x="24" y="65" class="desc">
+    <tspan x="24" dy="0">Luxury watch e-commerce built with React + Vite.</tspan>
+    <tspan x="24" dy="16">Features cinematic hero sections, animated page</tspan>
+    <tspan x="24" dy="16">transitions, multi-step checkout, and a curated</tspan>
+    <tspan x="24" dy="16">collection of haute horology timepieces.</tspan>
+  </text>
+
+  <!-- Tags -->
+  <rect x="24" y="140" width="48" height="18" rx="9" class="tag-bg" />
+  <text x="48" y="153" text-anchor="middle" class="tag">REACT</text>
+
+  <rect x="80" y="140" width="38" height="18" rx="9" class="tag-bg" />
+  <text x="99" y="153" text-anchor="middle" class="tag">VITE</text>
+
+  <rect x="126" y="140" width="72" height="18" rx="9" class="tag-bg" />
+  <text x="162" y="153" text-anchor="middle" class="tag">E-COMMERCE</text>
+
+  <rect x="206" y="140" width="72" height="18" rx="9" class="tag-bg" />
+  <text x="242" y="153" text-anchor="middle" class="tag">CINEMATIC</text>
+
+  <!-- Footer -->
+  <line x1="24" y1="178" x2="356" y2="178" stroke="#2A2520" stroke-width="0.5" />
+
+  <!-- Language -->
+  <circle cx="30" cy="198" r="4" class="lang-dot" />
+  <text x="40" y="202" class="lang">JavaScript</text>
+
+  <!-- Stars -->
+  <text x="320" y="202" class="star">★ 0</text>
+
+  <!-- View arrow -->
+  <text x="348" y="202" font-family="'Segoe UI', sans-serif" fill="#C4A24E" font-size="12" opacity="0.6">→</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="60" viewBox="0 0 500 60">
+  <style>
+    @keyframes pulse { 0%, 100% { opacity: 0.4; } 50% { opacity: 1; } }
+    @keyframes glow { 0%, 100% { filter: brightness(1); } 50% { filter: brightness(1.4); } }
+    .footer-text { font-family: 'Segoe UI', Tahoma, sans-serif; fill: #C4A24E; font-size: 14px; font-weight: 600; letter-spacing: 4px; animation: glow 3s ease-in-out infinite; }
+    .sub-text { font-family: 'Segoe UI', Tahoma, sans-serif; fill: #6A6560; font-size: 11px; letter-spacing: 6px; }
+    .dot { fill: #C4A24E; animation: pulse 2s ease-in-out infinite; }
+    .d1 { animation-delay: 0s; }
+    .d2 { animation-delay: 0.4s; }
+    .d3 { animation-delay: 0.8s; }
+    .line { stroke: #C4A24E; stroke-width: 0.5; opacity: 0.3; }
+  </style>
+  <!-- Decorative lines -->
+  <line x1="50" y1="18" x2="160" y2="18" class="line" />
+  <line x1="340" y1="18" x2="450" y2="18" class="line" />
+  <!-- Main text -->
+  <text x="250" y="22" text-anchor="middle" class="footer-text">◈ AYUSH SINGH ◈</text>
+  <!-- Animated dots -->
+  <circle cx="225" cy="42" r="2" class="dot d1" />
+  <circle cx="250" cy="42" r="2" class="dot d2" />
+  <circle cx="275" cy="42" r="2" class="dot d3" />
+  <!-- Sub text -->
+  <text x="250" y="56" text-anchor="middle" class="sub-text">FULL-STACK · AI/ML · CREATIVE</text>
+</svg>

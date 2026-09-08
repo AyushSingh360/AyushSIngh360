@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="280" viewBox="0 0 800 280">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F0F12;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#13131A;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="goldLine" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#C4A24E;stop-opacity:0" />
+      <stop offset="50%" style="stop-color:#C4A24E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C4A24E;stop-opacity:0" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="1.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes fadeSlideIn { 0% { opacity: 0; transform: translateX(-15px); } 100% { opacity: 1; transform: translateX(0); } }
+    @keyframes barFill { 0% { width: 0; } 100% { width: 100%; } }
+    @keyframes pulse { 0%, 100% { opacity: 0.6; } 50% { opacity: 1; } }
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+
+    .card-bg { fill: url(#cardBg); stroke: #1E1E24; stroke-width: 1; }
+    .section-title { font-family: 'Segoe UI', sans-serif; fill: #C4A24E; font-size: 11px; font-weight: 700; letter-spacing: 4px; }
+    .item-icon { font-family: 'Segoe UI', sans-serif; font-size: 16px; }
+    .item-text { font-family: 'Segoe UI', sans-serif; fill: #E8E2D5; font-size: 14px; }
+    .item-sub { font-family: 'Segoe UI', sans-serif; fill: #6A6560; font-size: 12px; font-style: italic; }
+    .accent { fill: #C4A24E; }
+    .gold-bar { fill: url(#goldLine); }
+
+    .row1 { animation: fadeSlideIn 0.6s ease-out 0.2s both; }
+    .row2 { animation: fadeSlideIn 0.6s ease-out 0.4s both; }
+    .row3 { animation: fadeSlideIn 0.6s ease-out 0.6s both; }
+    .row4 { animation: fadeSlideIn 0.6s ease-out 0.8s both; }
+    .row5 { animation: fadeSlideIn 0.6s ease-out 1.0s both; }
+    .row6 { animation: fadeSlideIn 0.6s ease-out 1.2s both; }
+
+    .cursor { animation: blink 1s step-end infinite; fill: #C4A24E; }
+    .status-dot { animation: pulse 2s ease-in-out infinite; }
+  </style>
+
+  <!-- Card background -->
+  <rect x="0" y="0" width="800" height="280" rx="12" class="card-bg" />
+
+  <!-- Gold accent bar on left -->
+  <rect x="0" y="40" width="3" height="200" rx="1.5" class="gold-bar" />
+
+  <!-- Title bar -->
+  <rect x="20" y="15" width="760" height="30" rx="4" fill="#0A0A0C" opacity="0.5" />
+  <circle cx="38" cy="30" r="5" fill="#FF5F57" opacity="0.8" />
+  <circle cx="58" cy="30" r="5" fill="#FEBC2E" opacity="0.8" />
+  <circle cx="78" cy="30" r="5" fill="#28C840" opacity="0.8" />
+  <text x="400" y="35" text-anchor="middle" class="section-title">ABOUT_ME.SH</text>
+  <rect x="745" y="24" width="8" height="12" class="cursor" />
+
+  <!-- Status indicator -->
+  <circle cx="35" cy="70" r="4" fill="#28C840" class="status-dot" />
+  <text x="48" y="74" class="item-sub">online · available for collaboration</text>
+
+  <!-- Content rows -->
+  <g class="row1">
+    <text x="35" y="106" class="accent" font-family="'Segoe UI', sans-serif" font-size="14">▸</text>
+    <text x="55" y="106" class="item-text">Currently building <tspan fill="#C4A24E" font-weight="600">AI projects</tspan> — agents, LLMs, smart automation</text>
+  </g>
+
+  <g class="row2">
+    <text x="35" y="136" class="accent" font-family="'Segoe UI', sans-serif" font-size="14">▸</text>
+    <text x="55" y="136" class="item-text">Open to collaborating on <tspan fill="#C4A24E" font-weight="600">full-stack products</tspan> — especially meaningful tools</text>
+  </g>
+
+  <g class="row3">
+    <text x="35" y="166" class="accent" font-family="'Segoe UI', sans-serif" font-size="14">▸</text>
+    <text x="55" y="166" class="item-text">Deep diving into <tspan fill="#C4A24E" font-weight="600">Java · React</tspan> — sharpening the stack</text>
+  </g>
+
+  <g class="row4">
+    <text x="35" y="196" class="accent" font-family="'Segoe UI', sans-serif" font-size="14">▸</text>
+    <text x="55" y="196" class="item-text">Fluent in <tspan fill="#C4A24E" font-weight="600">JS · Python · ML &amp; AI</tspan> — building across the stack</text>
+  </g>
+
+  <g class="row5">
+    <text x="35" y="226" class="accent" font-family="'Segoe UI', sans-serif" font-size="14">▸</text>
+    <text x="55" y="226" class="item-sub">Also: drawing · cooking · puzzles — yes, really</text>
+  </g>
+
+  <!-- Location -->
+  <g class="row6">
+    <text x="35" y="260" class="item-sub">📍 Based in India · Building with intent</text>
+  </g>
+</svg>

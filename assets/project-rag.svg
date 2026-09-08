@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="220" viewBox="0 0 380 220">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0D0D0F" />
+      <stop offset="100%" style="stop-color:#111118" />
+    </linearGradient>
+    <linearGradient id="accent3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#F59E0B" />
+      <stop offset="100%" style="stop-color:#FBBF24" />
+    </linearGradient>
+    <linearGradient id="dataflow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F59E0B;stop-opacity:0" />
+      <stop offset="50%" style="stop-color:#F59E0B;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#F59E0B;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+  <style>
+    @keyframes flowDown { 0% { transform: translateY(-20px); opacity: 0; } 50% { opacity: 1; } 100% { transform: translateY(20px); opacity: 0; } }
+    @keyframes scan { 0% { transform: translateY(-10px); } 100% { transform: translateY(10px); } }
+    @keyframes pulse3 { 0%, 100% { opacity: 0.3; r: 2; } 50% { opacity: 0.8; r: 3; } }
+    .card-bg { fill: url(#bg3); stroke: #1E1E28; stroke-width: 1; }
+    .title { font-family: 'Segoe UI', sans-serif; fill: #C4A24E; font-size: 16px; font-weight: 700; letter-spacing: 1px; }
+    .desc { font-family: 'Segoe UI', sans-serif; fill: #9A9590; font-size: 11.5px; }
+    .tag { font-family: 'JetBrains Mono', monospace; fill: #F59E0B; font-size: 9px; letter-spacing: 1px; }
+    .tag-bg { fill: #F59E0B; opacity: 0.1; }
+    .lang-dot { fill: #3572A5; }
+    .lang { font-family: 'Segoe UI', sans-serif; fill: #6A6560; font-size: 10px; }
+    .star { font-family: 'Segoe UI', sans-serif; fill: #C4A24E; font-size: 10px; }
+    .doc-icon { fill: none; stroke: #F59E0B; stroke-width: 1; }
+    .flow-dot { fill: #F59E0B; }
+    .fd1 { animation: flowDown 2s ease-in-out infinite; }
+    .fd2 { animation: flowDown 2s ease-in-out infinite 0.5s; }
+    .fd3 { animation: flowDown 2s ease-in-out infinite 1s; }
+    .scanner { stroke: #F59E0B; stroke-width: 0.5; opacity: 0.4; animation: scan 2s ease-in-out infinite alternate; }
+    .node { fill: #F59E0B; animation: pulse3 2.5s ease-in-out infinite; }
+    .n1 { animation-delay: 0s; }
+    .n2 { animation-delay: 0.5s; }
+    .n3 { animation-delay: 1s; }
+  </style>
+
+  <!-- Card -->
+  <rect width="380" height="220" rx="12" class="card-bg" />
+  <rect x="24" y="0" width="60" height="2" rx="1" fill="url(#accent3)" />
+
+  <!-- Icon — Document + Vector pipeline -->
+  <g transform="translate(310, 22)">
+    <!-- Document shape -->
+    <path d="M 0 5 L 0 35 L 25 35 L 25 12 L 18 5 Z" class="doc-icon" opacity="0.5" />
+    <path d="M 18 5 L 18 12 L 25 12" class="doc-icon" opacity="0.5" />
+    <!-- Scan line -->
+    <line x1="4" y1="20" x2="21" y2="20" class="scanner" />
+    <!-- Text lines on doc -->
+    <line x1="5" y1="15" x2="16" y2="15" stroke="#F59E0B" stroke-width="0.5" opacity="0.2" />
+    <line x1="5" y1="25" x2="20" y2="25" stroke="#F59E0B" stroke-width="0.5" opacity="0.2" />
+    <line x1="5" y1="30" x2="14" y2="30" stroke="#F59E0B" stroke-width="0.5" opacity="0.2" />
+    <!-- Flow arrow down -->
+    <line x1="12" y1="38" x2="12" y2="50" stroke="#F59E0B" stroke-width="0.5" opacity="0.3" />
+    <!-- Vector nodes -->
+    <circle cx="-5" cy="52" r="2" class="node n1" />
+    <circle cx="12" cy="52" r="2" class="node n2" />
+    <circle cx="29" cy="52" r="2" class="node n3" />
+    <!-- Connections -->
+    <line x1="-5" y1="52" x2="12" y2="52" stroke="#F59E0B" stroke-width="0.3" opacity="0.3" />
+    <line x1="12" y1="52" x2="29" y2="52" stroke="#F59E0B" stroke-width="0.3" opacity="0.3" />
+  </g>
+
+  <!-- Flowing data particles -->
+  <circle cx="340" cy="42" r="1" class="flow-dot fd1" opacity="0.5" />
+  <circle cx="335" cy="46" r="1" class="flow-dot fd2" opacity="0.5" />
+  <circle cx="345" cy="50" r="1" class="flow-dot fd3" opacity="0.5" />
+
+  <!-- Title -->
+  <text x="24" y="40" class="title">ENTERPRISE RAG SYSTEM</text>
+
+  <!-- Description -->
+  <text x="24" y="65" class="desc">
+    <tspan x="24" dy="0">Robust RAG backend with semantic chunking,</tspan>
+    <tspan x="24" dy="16">embedding caching, and similarity-gated retrieval.</tspan>
+    <tspan x="24" dy="16">Uses GPT-4 + FAISS to deliver verifiable, source-</tspan>
+    <tspan x="24" dy="16">backed answers from PDFs, DOCX, and Markdown.</tspan>
+  </text>
+
+  <!-- Tags -->
+  <rect x="24" y="140" width="34" height="18" rx="9" class="tag-bg" />
+  <text x="41" y="153" text-anchor="middle" class="tag">RAG</text>
+
+  <rect x="66" y="140" width="42" height="18" rx="9" class="tag-bg" />
+  <text x="87" y="153" text-anchor="middle" class="tag">FAISS</text>
+
+  <rect x="116" y="140" width="45" height="18" rx="9" class="tag-bg" />
+  <text x="139" y="153" text-anchor="middle" class="tag">GPT-4</text>
+
+  <rect x="169" y="140" width="56" height="18" rx="9" class="tag-bg" />
+  <text x="197" y="153" text-anchor="middle" class="tag">FASTAPI</text>
+
+  <rect x="233" y="140" width="72" height="18" rx="9" class="tag-bg" />
+  <text x="269" y="153" text-anchor="middle" class="tag">VECTOR DB</text>
+
+  <!-- Footer -->
+  <line x1="24" y1="178" x2="356" y2="178" stroke="#1E1E28" stroke-width="0.5" />
+
+  <!-- Language -->
+  <circle cx="30" cy="198" r="4" class="lang-dot" />
+  <text x="40" y="202" class="lang">Python</text>
+
+  <!-- Stars -->
+  <text x="320" y="202" class="star">★ 1</text>
+
+  <!-- View arrow -->
+  <text x="348" y="202" font-family="'Segoe UI', sans-serif" fill="#C4A24E" font-size="12" opacity="0.6">→</text>
+</svg>
