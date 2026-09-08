@@ -224,10 +224,7 @@
 
 <br><br>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=300&size=11&duration=4000&pause=2000&color=3A3530&center=true&vCenter=true&width=400&height=20&lines=crafted+with+%E2%99%A5+and+way+too+much+coffee" alt="Footer" />
-
-<br><br>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D0D0F,25:1A1510,50:C4A24E,75:1A1510,100:0D0D0F&height=100&section=footer&text=&fontSize=0&animation=fadeIn" width="100%" alt="" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=15&duration=4000&pause=2000&color=8A8580&center=true&vCenter=true&width=500&height=32&lines=crafted+with+%E2%99%A5+and+way+too+much+coffee" alt="Footer" />
 
 </div>
+
