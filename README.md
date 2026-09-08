@@ -71,99 +71,40 @@
 <br>
 
 <!-- ─── LANGUAGES ─── -->
-
 <img src="https://img.shields.io/badge/LANGUAGES-C4A24E?style=for-the-badge&logoColor=white" alt="Languages" />
-
-<br><br>
-
+<br>
 <img src="https://skillicons.dev/icons?i=js,ts,python,java,html,css&theme=dark" alt="Languages" />
 
 <br><br>
 
 <!-- ─── FRAMEWORKS & LIBRARIES ─── -->
-
 <img src="https://img.shields.io/badge/FRAMEWORKS+%26+LIBRARIES-C4A24E?style=for-the-badge&logoColor=white" alt="Frameworks" />
-
-<br><br>
-
+<br>
 <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,pytorch,tensorflow&theme=dark" alt="Frameworks" />
 
 <br><br>
 
 <!-- ─── DATA SCIENCE ─── -->
-
 <img src="https://img.shields.io/badge/DATA+SCIENCE-C4A24E?style=for-the-badge&logoColor=white" alt="Data Science" />
-
-<br><br>
-
-<a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" height="48" alt="pandas" /></a>&nbsp;&nbsp;&nbsp;
-<a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" height="48" alt="numpy" /></a>&nbsp;&nbsp;&nbsp;
-<a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" height="48" alt="scikit-learn" /></a>&nbsp;&nbsp;&nbsp;
-<a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="48" alt="jupyter" /></a>
+<br>
+<a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" height="40" alt="pandas" /></a>&nbsp;&nbsp;
+<a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" height="40" alt="numpy" /></a>&nbsp;&nbsp;
+<a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" height="40" alt="scikit-learn" /></a>&nbsp;&nbsp;
+<a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="40" alt="jupyter" /></a>
 
 <br><br>
 
 <!-- ─── DATABASES & CLOUD ─── -->
-
 <img src="https://img.shields.io/badge/DATABASES+%26+CLOUD-C4A24E?style=for-the-badge&logoColor=white" alt="Databases" />
-
-<br><br>
-
+<br>
 <img src="https://skillicons.dev/icons?i=mongodb,mysql,firebase,vercel,docker&theme=dark" alt="Databases & Cloud" />
 
 <br><br>
 
 <!-- ─── TOOLS & DESIGN ─── -->
-
 <img src="https://img.shields.io/badge/TOOLS+%26+DESIGN-C4A24E?style=for-the-badge&logoColor=white" alt="Tools" />
-
-<br><br>
-
+<br>
 <img src="https://skillicons.dev/icons?i=git,github,figma,ae,ai,ps,pr,vscode&theme=dark" alt="Tools & Design" />
-
-</div>
-
-<br><br>
-
-<!-- ═══════════════════════════════════════════════════════════════════════════ -->
-<!--                              GITHUB STATS                                -->
-<!-- ═══════════════════════════════════════════════════════════════════════════ -->
-
-<div align="center">
-
-<img src="assets/divider.svg" width="70%" alt="" />
-
-<br><br>
-
-## `⟐ GITHUB ANALYTICS ⟐`
-
-<br>
-
-<!-- ─── STATS + STREAK ROW ─── -->
-<a href="https://github.com/AyushSingh360">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=AyushSingh360&show_icons=true&theme=dark&bg_color=0D0D0F&title_color=C4A24E&icon_color=C4A24E&text_color=E8E2D5&border_color=1E1E24&hide_border=false&count_private=true&include_all_commits=true&ring_color=C4A24E" alt="GitHub Stats" />
-</a>
-<a href="https://github.com/AyushSingh360">
-  <img width="49%" src="https://streak-stats.demolab.com?user=AyushSingh360&theme=dark&hide_border=false&background=0D0D0F&stroke=1E1E24&ring=C4A24E&fire=B87333&currStreakNum=E8E2D5&sideNums=E8E2D5&currStreakLabel=C4A24E&sideLabels=8A8580&dates=5A5550&border=1E1E24" alt="Streak Stats" />
-</a>
-
-<br><br>
-
-<!-- ─── LANGUAGES + PRODUCTIVE TIME ROW ─── -->
-<a href="https://github.com/AyushSingh360">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AyushSingh360&layout=compact&theme=dark&bg_color=0D0D0F&title_color=C4A24E&text_color=E8E2D5&border_color=1E1E24&hide_border=false&langs_count=8" alt="Top Languages" />
-</a>
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=AyushSingh360&theme=github_dark&utcOffset=5.5" alt="Productive Time" />
-
-<br><br>
-
-<!-- ─── ACTIVITY GRAPH ─── -->
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=AyushSingh360&radius=16&theme=github-dark&bg_color=0D0D0F&color=C4A24E&line=C4A24E&point=E8E2D5&area=true&area_color=C4A24E15&hide_border=true&custom_title=📈+Contribution+Activity" alt="Activity Graph" />
-
-<br>
-
-<!-- ─── PROFILE DETAILS ─── -->
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AyushSingh360&theme=github_dark" width="100%" alt="Profile Summary" />
 
 </div>
 
@@ -184,26 +125,6 @@
 <br>
 
 <img src="profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D Contribution Graph" />
-
-</div>
-
-<br>
-
-<!-- ═══════════════════════════════════════════════════════════════════════════ -->
-<!--                                TROPHIES                                  -->
-<!-- ═══════════════════════════════════════════════════════════════════════════ -->
-
-<div align="center">
-
-<img src="assets/divider.svg" width="70%" alt="" />
-
-<br><br>
-
-## `⟐ TROPHY CASE ⟐`
-
-<br>
-
-<img src="https://github-profile-trophy.vercel.app/?username=AyushSingh360&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=12&margin-h=12" width="100%" alt="GitHub Trophies" />
 
 </div>
 
